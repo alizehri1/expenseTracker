@@ -1,0 +1,68 @@
+.list{
+    list-style: none;
+    background-color:rgb(255, 255, 255);
+    /* background: linear-gradient(#141e30, #243b55); */
+    border-radius: 0.5rem;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
+    padding: 15px 20px;
+    margin-top: 3rem;
+
+}
+.newlist{
+    background-color: lightseagreen;
+    padding: 12px 15px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    border-radius: 0.5rem;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
+    gap: 2rem;
+}
+.date{
+    background-color: lightseagreen;
+    background: linear-gradient(#141e30, #243b55);
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    height: min-content;
+    border-radius: 12px;
+
+}
+.date .day {
+    font-size: 3.2rem;
+  }
+  
+  .date .month {
+    font-size: 1.8rem;
+  }
+  
+  .date .year {
+    font-size: 1.6rem;
+  }
+  .title {
+    background-color: rgb(103, 68, 103);
+    background: linear-gradient(#141e30, #243b55);
+
+    color: #fff;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    border-radius: 1px;
+  }
+  
+  .price {
+    background-color: rgb(103, 68, 103);
+    background: linear-gradient(#141e30, #243b55);
+
+    color: #fff;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    border-radius: 12px;
+  }
+ 
